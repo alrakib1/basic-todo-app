@@ -18,7 +18,7 @@ const TodoList = ({ todos, onCompletedChange, onDelete }: TodoListProps) => {
   return (
     <>
       {todos.length === 0 ? (
-        <p className="text-center text-gray-500 text-sm">No todos found</p>
+        <p className="text-center text-gray-500 text-sm">No todos found. Add one from above</p>
       ) : (
         <div className="space-y-2">
           {todosSorted.map((todo) => (

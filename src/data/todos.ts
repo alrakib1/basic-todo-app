@@ -15,6 +15,6 @@ export const dummyData:Todo[] =[
     {
         id: 3,
         title: "Learn TailwindCSS 🎨",
-        completed: true
+        completed: false
     }
 ]
